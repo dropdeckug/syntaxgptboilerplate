@@ -3,33 +3,22 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="flex min-h-screen flex-col items-center justify-center px-4">
         <div className="text-center space-y-8 max-w-4xl mx-auto">
           <AnimatedLogo />
           
           <div className="space-y-4">
-            <Badge variant="outline" className="text-sm">
-              Powered by AI
-            </Badge>
+            
             <h1 className="text-6xl font-bold text-foreground">
               SyntaxGPT
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A modern Spotify-inspired boilerplate for your next amazing project
-            </p>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">A modern Spotify-inspired boilerplate for your next amazing project</p>
           </div>
 
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Button size="lg">Get Started</Button>
-            <Button size="lg" variant="outline">
-              Learn More
-            </Button>
-          </div>
+          
         </div>
       </div>
 
@@ -106,8 +95,6 @@ const Index = () => {
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
