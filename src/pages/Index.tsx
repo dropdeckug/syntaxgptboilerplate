@@ -16,11 +16,11 @@ const Index = () => {
             <Badge variant="outline" className="text-sm">
               Powered by AI
             </Badge>
-            <h1 className="text-6xl font-bold bg-gradient-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent">
+            <h1 className="text-6xl font-bold text-foreground">
               SyntaxGPT
             </h1>
-            <p className="text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Start building amazing projects here with AI-powered development tools
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              A modern Spotify-inspired boilerplate for your next amazing project
             </p>
           </div>
 
